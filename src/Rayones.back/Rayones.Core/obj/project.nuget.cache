@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "NrBygobIIHMkoCL7cytdfhLrMK9IECLeMggISS4BuWMQKdKKyRxOwFvhG4mM67FlLYMzbWfnNNc5QJTqXwzqrw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Sistema Rayones\\Rayones-master\\src\\Rayones.back\\Rayones.Core\\Rayones.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

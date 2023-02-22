@@ -1,0 +1,24 @@
+D:\Traking\V3\src\Rayones.back\Rayones.Core\bin\Debug\net6.0\Rayones.Core.deps.json
+D:\Traking\V3\src\Rayones.back\Rayones.Core\bin\Debug\net6.0\Rayones.Core.dll
+D:\Traking\V3\src\Rayones.back\Rayones.Core\bin\Debug\net6.0\Rayones.Core.pdb
+D:\Traking\V3\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.csproj.AssemblyReference.cache
+D:\Traking\V3\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Traking\V3\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.AssemblyInfoInputs.cache
+D:\Traking\V3\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.AssemblyInfo.cs
+D:\Traking\V3\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.csproj.CoreCompileInputs.cache
+D:\Traking\V3\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.dll
+D:\Traking\V3\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\refint\Rayones.Core.dll
+D:\Traking\V3\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.pdb
+D:\Traking\V3\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\ref\Rayones.Core.dll
+C:\Users\Usuario\Desktop\Sprints rayones\Rayones-master\Rayones-master\src\Rayones.back\Rayones.Core\bin\Debug\net6.0\Rayones.Core.deps.json
+C:\Users\Usuario\Desktop\Sprints rayones\Rayones-master\Rayones-master\src\Rayones.back\Rayones.Core\bin\Debug\net6.0\Rayones.Core.dll
+C:\Users\Usuario\Desktop\Sprints rayones\Rayones-master\Rayones-master\src\Rayones.back\Rayones.Core\bin\Debug\net6.0\Rayones.Core.pdb
+C:\Users\Usuario\Desktop\Sprints rayones\Rayones-master\Rayones-master\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Sprints rayones\Rayones-master\Rayones-master\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Sprints rayones\Rayones-master\Rayones-master\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Sprints rayones\Rayones-master\Rayones-master\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Sprints rayones\Rayones-master\Rayones-master\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Sprints rayones\Rayones-master\Rayones-master\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.dll
+C:\Users\Usuario\Desktop\Sprints rayones\Rayones-master\Rayones-master\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\refint\Rayones.Core.dll
+C:\Users\Usuario\Desktop\Sprints rayones\Rayones-master\Rayones-master\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\Rayones.Core.pdb
+C:\Users\Usuario\Desktop\Sprints rayones\Rayones-master\Rayones-master\src\Rayones.back\Rayones.Core\obj\Debug\net6.0\ref\Rayones.Core.dll
