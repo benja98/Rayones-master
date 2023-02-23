@@ -24,7 +24,7 @@ namespace Rayones.Core.Services
             _paginationOptions = options.Value;
         }
 
-        public PagedList<Unidades> GetPosts(UnidadesQueryFilter filters)
+        public PagedList<Unidades> GetUnidades(UnidadesQueryFilter filters)
         {
             filters.PageNumber = filters.PageNumber == 0 ? _paginationOptions.DefaultPageNumber : filters.PageNumber;
             filters.PageSize = filters.PageSize == 0 ? _paginationOptions.DefaultPageSize : filters.PageSize;
@@ -42,18 +42,15 @@ namespace Rayones.Core.Services
         }
 
 
-        public async Task<Unidades> GetPostById(int id)
+        public async Task<Unidades> GetUnidadesById(int id)
         {
             return await _unitofWork.UnidadesRepository.GetById(id);
         }
 
 
 
-        public async Task InsertPost(Unidades unidad)
+        public async Task InsertUnidades(Unidades unidad)
         {
-
-
-
             if (unidad.Descripcion.Contains("ninguna"))
             {
                 throw new BusinessException("Contenido no permitido");
@@ -63,14 +60,14 @@ namespace Rayones.Core.Services
             await _unitofWork.SaveChangesAsync(); 
         }
 
-        public async Task<bool> UpdatePost(Unidades unidad)
+        public async Task<bool> UpdateUnidades(Unidades unidad)
         {
               _unitofWork.UnidadesRepository.Update(unidad);
            await  _unitofWork.SaveChangesAsync();
             return true;
         }
 
-        public async Task<bool> DeletePost(int id)
+        public async Task<bool> DeleteUnidades(int id)
         {
             await _unitofWork.UnidadesRepository.Delete(id);
             return true;

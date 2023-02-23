@@ -33,9 +33,47 @@ namespace Rayones.API.Controllers
 
             var unidade = _mapper.Map<Unidades>(_unidadesDTO);
 
-            await _unidadesService.InsertPost(unidade);
+            await _unidadesService.InsertUnidades(unidade);
             var respose = new ApiResponse<UnidadesDTO>(_unidadesDTO);
 
+
+            return Ok(respose);
+
+        }
+
+        //obtener por ID
+        [HttpGet("{id}")]
+        public async Task<ActionResult> Get(int id)
+        {
+            var unidad = await _unidadesService.GetUnidadesById(id);
+            var unidadDTO = _mapper.Map<UnidadesDTO>(unidad);
+
+            var respose = new ApiResponse<UnidadesDTO>(unidadDTO);
+
+            return Ok(respose);
+
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> Put(int id, UnidadesDTO _unidadesDTO)
+        {
+
+            var unidad = _mapper.Map<Unidades>(_unidadesDTO);
+            unidad.Id = id;
+            var result = await _unidadesService.UpdateUnidades(unidad);
+            var respose = new ApiResponse<bool>(result);
+
+
+            return Ok(respose);
+
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            var result = await _unidadesService.DeleteUnidades(id);
+
+            var respose = new ApiResponse<bool>(result);
 
             return Ok(respose);
 

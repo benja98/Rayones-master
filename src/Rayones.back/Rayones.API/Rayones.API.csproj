@@ -5,6 +5,11 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
+
+  <ItemGroup>
+    <Compile Include="..\Rayones.Core\Services\UnidadesService.cs" Link="UnidadesService.cs" />
+  </ItemGroup>
+
     <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
