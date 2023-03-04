@@ -18,8 +18,10 @@ namespace Rayones.Infrastrucure.Data
             : base(options)
         {
         }
-
+        //se crea un Dbset por cada tabla
         public virtual DbSet<Unidades> Unidades { get; set; }
+        public virtual DbSet<Marca> Marca { get; set; }
+        public virtual DbSet<Categorias> Categorias { get; set; }
 
 
 

@@ -17,13 +17,7 @@ using Rayones.Infrastructure.Repositories;
 using Rayones.Infrastructure.Services;
 using Rayones.Infrastrucure.Data;
 using Rayones.Core.CustomEntities;
-using Rayones.Core.Interfaces;
 using Rayones.Core.Services;
-using Rayones.Core.CustomEntities;
-using Rayones.Core.Interfaces;
-using Rayones.Infrastructure.Filters;
-using Rayones.Infrastructure.Interfaces;
-using Rayones.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -49,8 +43,11 @@ namespace Rayones.API
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddTransient<IUnidadesService, UnidadesService>();
+            services.AddTransient<IMarcaService, MarcaService>();
+            services.AddTransient<ICategoriasService, CategoriasService>();
             services.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             services.AddTransient<IUnitofWork, UnitofWork>();
+          //  services.AddTransient<IMarcatofWork, MarcatofWork>();
 
             services.AddDbContext<RayonesContext>(options => options.UseSqlServer(Configuration.GetConnectionString("str_connection")));
 

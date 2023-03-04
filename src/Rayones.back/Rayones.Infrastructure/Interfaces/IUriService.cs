@@ -5,6 +5,7 @@ namespace Rayones.Infrastructure.Interfaces
 {
    public interface IUriService
     {
-        Uri GetUnidadesPaginationUri(UnidadesQueryFilter filter, string actionUrl);
+        Uri GetCategoriasPaginationUri(CategoriasQueryFilter filter, string actionUrl);
+        Uri GetMarcaPaginationUri(MarcasQueryFilter filter, string actionUrl);
     }
 }

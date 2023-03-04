@@ -7,7 +7,7 @@
 
 
   <ItemGroup>
-    <Compile Include="..\Rayones.Core\Services\UnidadesService.cs" Link="UnidadesService.cs" />
+    <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 
     <ItemGroup>

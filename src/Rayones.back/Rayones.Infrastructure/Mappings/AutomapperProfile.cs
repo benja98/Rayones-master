@@ -14,11 +14,11 @@ namespace Rayones.Infrastrucure.Mappings
         {
             /////////////////// ---- POST ---- //////////////////
 
-            #region Unidades
+            #region Dto
             CreateMap<Unidades, UnidadesDTO>().ReverseMap();
+            CreateMap<Marca, MarcaDTO>().ReverseMap();
+            CreateMap<Categorias, CategoriasDTO>().ReverseMap();
             #endregion
-
-
         }
     }
 }

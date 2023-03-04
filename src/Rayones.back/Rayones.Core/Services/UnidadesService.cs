@@ -3,7 +3,6 @@ using Rayones.Core.Entidades;
 using Rayones.Core.Interfaces;
 using Rayones.Core.CustomEntities;
 using Rayones.Core.Exepciones;
-using Rayones.Core.Interfaces;
 using Rayones.Core.QueryFilters;
 using System;
 using System.Collections.Generic;

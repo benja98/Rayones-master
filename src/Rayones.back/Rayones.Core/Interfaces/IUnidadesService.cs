@@ -8,9 +8,9 @@ namespace Rayones.Core.Interfaces
 {
     public interface IUnidadesService
     {
-        Task InsertUnidades(Unidades unidad);
+        Task InsertUnidades(Unidades unidades);
 
-        Task<bool> UpdateUnidades(Unidades unidad);
+        Task<bool> UpdateUnidades(Unidades unidades);
 
         Task<bool> DeleteUnidades(int id);
         Task<Unidades> GetUnidadesById(int id);
