@@ -18,6 +18,7 @@ namespace Rayones.Infrastrucure.Mappings
             CreateMap<Unidades, UnidadesDTO>().ReverseMap();
             CreateMap<Marca, MarcaDTO>().ReverseMap();
             CreateMap<Categorias, CategoriasDTO>().ReverseMap();
+            CreateMap<Acabados, AcabadosDTO>().ReverseMap();
             #endregion
         }
     }

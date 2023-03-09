@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Rayones.Infrastructure.Validators
 {
-    public class AcabadosValidator : AbstractValidator<AcabadoDTO>
+    public class AcabadosValidator : AbstractValidator<AcabadosDTO>
     {
         public AcabadosValidator()
         {

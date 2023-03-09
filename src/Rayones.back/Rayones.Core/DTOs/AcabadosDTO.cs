@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rayones.Core.DTOs
 {
-    public class AcabadoDTO
+    public class AcabadosDTO
     {
         public int Id { get; set; }
         public string Descripcion { get; set; }

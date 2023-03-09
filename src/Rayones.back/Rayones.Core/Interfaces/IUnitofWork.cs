@@ -15,6 +15,7 @@ namespace Rayones.Core.Interfaces
         IRepository<Unidades> UnidadesRepository { get; }
         IRepository<Marca> MarcaRepository { get; }
         IRepository<Categorias> CategoriasRepository { get; }
+        IRepository<Acabados> AcabadosRepository { get; }
 
         void SaveChange();
         Task SaveChangesAsync();

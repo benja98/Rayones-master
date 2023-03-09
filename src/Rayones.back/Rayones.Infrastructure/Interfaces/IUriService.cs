@@ -7,5 +7,6 @@ namespace Rayones.Infrastructure.Interfaces
     {
         Uri GetCategoriasPaginationUri(CategoriasQueryFilter filter, string actionUrl);
         Uri GetMarcaPaginationUri(MarcasQueryFilter filter, string actionUrl);
+        Uri GetAcabadosPaginationUri(AcabadosQueryFilter filter, string actionUrl);
     }
 }

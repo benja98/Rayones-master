@@ -22,6 +22,7 @@ namespace Rayones.Infrastrucure.Data
         public virtual DbSet<Unidades> Unidades { get; set; }
         public virtual DbSet<Marca> Marca { get; set; }
         public virtual DbSet<Categorias> Categorias { get; set; }
+        public virtual DbSet<Acabados> Acabados { get; set; }
 
 
 
