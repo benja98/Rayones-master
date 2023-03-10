@@ -46,6 +46,7 @@ namespace Rayones.API
             services.AddTransient<IMarcaService, MarcaService>();
             services.AddTransient<ICategoriasService, CategoriasService>();
             services.AddTransient<IAcabadosService, AcabadosService>();
+            services.AddTransient<IEstadosService, EstadosService>();
             services.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             services.AddTransient<IUnitofWork, UnitofWork>();
           //  services.AddTransient<IMarcatofWork, MarcatofWork>();

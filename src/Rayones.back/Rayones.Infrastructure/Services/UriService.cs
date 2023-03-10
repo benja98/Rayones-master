@@ -40,5 +40,10 @@ namespace Rayones.Infrastructure.Services
             string baseUrl = $"{_baseUri}{actionUrl}";
             return new Uri(baseUrl);
         }
+        Uri IUriService.GetEstadosPaginationUri(EstadosQueryFilter filter, string actionUrl)
+        {
+            string baseUrl = $"{_baseUri}{actionUrl}";
+            return new Uri(baseUrl);
+        }
     }
 }

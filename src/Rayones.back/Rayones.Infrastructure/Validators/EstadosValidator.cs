@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
-using Microsoft.Extensions.Hosting;
 using Rayones.Core.DTOs;
+using Rayones.Core.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,13 +9,17 @@ using System.Threading.Tasks;
 
 namespace Rayones.Infrastructure.Validators
 {
-    public class MarcaValidator : AbstractValidator<MarcaDTO>
+    public class EstadosValidator : AbstractValidator<EstadosDTO>
     {
-        public MarcaValidator()
+        public EstadosValidator()
         {
             RuleFor(post => post.Descripcion)
                     .NotNull()
                     .Length(5, 50);
+            RuleFor(post => post.Color)
+                    .NotNull()
+                    .Length(5, 50);
         }
+
     }
 }

@@ -17,6 +17,7 @@ namespace Rayones.Infrastructure.Repositories
         private readonly IRepository<Marca> _marcaRepository;
         private readonly IRepository<Categorias> _categoriasRepository;
         private readonly IRepository<Acabados> _acabadosRepository;
+        private readonly IRepository<Estados> _estadosRepository;
 
         public UnitofWork(RayonesContext contex)
         {
@@ -27,6 +28,7 @@ namespace Rayones.Infrastructure.Repositories
         public IRepository<Marca> MarcaRepository => _marcaRepository ?? new BaseRepository<Marca>(contex);
         public IRepository<Categorias> CategoriasRepository => _categoriasRepository ?? new BaseRepository<Categorias>(contex);
         public IRepository<Acabados> AcabadosRepository => _acabadosRepository ?? new BaseRepository<Acabados>(contex);
+        public IRepository<Estados> EstadosRepository => _estadosRepository ?? new BaseRepository<Estados>(contex);
         public void Dispose()
         {
             if (contex != null)
